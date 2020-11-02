@@ -1,2 +1,2 @@
-# Vanilla-Javascript-Table-pagination
+# Vanilla-Javascript-Table-with-pagination
 A vanilla javascript table class with pagination, and sorting 
