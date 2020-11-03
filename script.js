@@ -182,7 +182,7 @@ class Add_to_table {
     function sort_table(sort_direction, sort_value) {
       sort_key = sort_value;
       sort_direction = sort_direction;
-      
+
       let button_id = "#table_key_"+ sort_value;
       let this_sort_value = sort_value;
       let this_sort_direction = sort_direction;
@@ -564,5 +564,6 @@ $(document).ready( function() {
 console.log("Welcome to the Table class developed my stromedia technology, try out some of the methods by typing console.log(x) here in the console.");
 console.log("F.ex Write x.delete_row(['Ingrid Bergman'], true); to delete this row with the delete dialog, write false to skip the dialog.")
 console.log("Send an email to mybestlabs@gmail.com if you have any questions :) ")
+console.log("Github https://github.com/trondstromlie/Vanilla-Javascript-Table-pagination")
 
 });
