@@ -181,7 +181,7 @@ class Add_to_table {
 
     function sort_table(sort_direction, sort_value) {
       sort_key = sort_value;
-      sort_direction = sort_direction === "desc"? "asc": "desc";
+      sort_direction = sort_direction;
       console.log(sort_value)
       let button_id = "#table_key_"+ sort_value;
       let this_sort_value = sort_value;
@@ -452,7 +452,7 @@ class Add_to_table {
 
                   populate_table( "#"+table_id, sorted[e.target.getAttribute("data-item")] );
                   add_nav_pagination(sorted, e.target.getAttribute("data-item"));
-                  
+
                   update_url(fetch_n_rows(), current , sort_key, sort_direction)
 
                 });
